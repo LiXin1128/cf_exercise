@@ -1,0 +1,46 @@
+body {
+  position: relative;
+}
+/**** Contact ****/
+#contact{
+    background-image: url("../img/landscape_2.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 50px;
+    height: 400px;
+}
+/**** Contact END ****/
+
+/**** FAQ ****/
+.faq{
+	background-color: #bbb;
+}
+.panel-group a:link{
+	text-decoration: none;
+}
+/**** FAQ END ****/
+
+/**** Navigation Bar Style ****/
+.projectName {
+    text-transform: uppercase;
+}
+.projectName a {
+    color: white;
+}
+/**** Navigation Bar Style END ****/
+.nav .navbar-nav .navbar-right{
+    margin-right: 100px;
+}
+.img-responsive{
+    padding: 5% 0;
+}
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
